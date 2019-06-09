@@ -2,7 +2,7 @@
 #
 # !!! Massage from spoiler-github !!!
 # It's modificated version of script for automatic installing of pacaur
-# I'm just add part which installing auracle-git, jq, and onigurama
+# I'm just add part which installing some additional dependence
 # This three packages need for installing too
 # Also remove massage about losting maintainer
 # Because now pacaur have maintainer again (thanks for E5ten)
@@ -46,22 +46,6 @@ sudo pacman -S expac yajl git meson gtest gmock jq onigurama --noconfirm --neede
 
 # Install "auracle-git" from AUR
 
-if [ ! -n "$(pacman -Qs auracle-git)" ]; then
-    curl -o PKGBUILD https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=auracle-git
-    makepkg PKGBUILD --install --needed
-fi
-
-# Install "cower" from AUR
-if [ ! -n "$(pacman -Qs cower)" ]; then
-    curl -o PKGBUILD https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=cower
-    makepkg PKGBUILD --skippgpcheck --install --needed
-fi
-
-# Install "pacaur" from AUR
-if [ ! -n "$(pacman -Qs pacaur)" ]; then
-    curl -o PKGBUILD https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=pacaur
-    makepkg PKGBUILD --install --needed
-fi
 
 # Clean up...
 cd ~
