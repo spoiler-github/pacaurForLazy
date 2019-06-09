@@ -8,7 +8,7 @@
 # Because now pacaur have maintainer again (thanks for E5ten)
 # 
 #
-#
+# !!! Massage by original author !!!
 # If you are new to arch, I encourage you to at least read and understand what
 # this script does befor blindley running it.
 # That's why I didn't make a one-liner out of it so you have an easier time
