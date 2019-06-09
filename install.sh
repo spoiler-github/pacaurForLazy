@@ -42,7 +42,7 @@ cd /tmp/pacaur_install
 sudo pacman -S binutils make gcc fakeroot pkg-config --noconfirm --needed
 
 # Install pacaur dependencies from arch repos
-sudo pacman -S expac yajl git meson gtest gmock jq onigurama --noconfirm --needed
+sudo pacman -S expac yajl git meson gtest gmock jq oniguruma --noconfirm --needed
 
 # Install "auracle-git" from AUR
 
