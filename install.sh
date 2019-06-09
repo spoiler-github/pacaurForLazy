@@ -3,7 +3,7 @@
 # !!! Massage from spoiler-github !!!
 # It's modificated version of script for automatic installing of pacaur
 # I'm just add part which installing auracle-git, jq, and onigurama
-# This two packages need for installing too
+# This three packages need for installing too
 # Also remove massage about losting maintainer
 # Because now pacaur have maintainer again (thanks for E5ten)
 # 
